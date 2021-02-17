@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.main-content {
+  background: rgb(61, 81, 149);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  border: rgb(34, 48, 92) solid 3px;
+}
+
+img {
+  width: 100%;
+}
+
+.apod {
+  margin: 15px;
+  padding: 30px;
+  width: 500px;
+  border-radius: 15px;
+  border: black solid 2px;
+  font-size: 0.8rem;
+  box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
