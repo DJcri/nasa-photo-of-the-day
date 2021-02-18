@@ -1,5 +1,10 @@
 .App {
+  padding-top: 30px;
   text-align: center;
+  height: 100vh;
+  min-height: 820px;
+  background: url("./bg.jpg");
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -39,7 +44,6 @@
 
 .main-content {
   background: rgb(61, 81, 149);
-  color: white;
   padding: 50px;
   border-radius: 20px;
   border: rgb(34, 48, 92) solid 3px;
@@ -49,16 +53,34 @@ img {
   width: 100%;
 }
 
+p.desc {
+  line-height: 32px;
+}
+
 .apod {
-  margin: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
   padding: 30px;
-  width: 500px;
-  border-radius: 15px;
-  border: black solid 2px;
-  font-size: 0.8rem;
-  box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.2);
+  width: 70%;
+  font-size: 1rem;
+  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.5);
+  color: white;
 }
 
 .hidden {
   display: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.img-container,
+.details-container {
+  flex: 2;
+  margin: 0 15px;
+}
+
+.img-container {
+  flex: 3;
 }

@@ -5,11 +5,6 @@ import { BASE_URL, API_KEY } from "../constants";
 
 const Apod = () => {
   const [data, setData] = useState(null);
-  const [showDetails, setShowDetails] = useState(false);
-
-  const toggleDetails = () => {
-    setShowDetails(!showDetails ? true : false);
-  };
 
   useEffect(() => {
     axios
@@ -29,18 +24,17 @@ const Apod = () => {
 
   return (
     <div className="apod">
-      <h2>Astronomy Picture of the Day</h2>
-      <div className="img-container">
-        <img src={data.url} alt="astronomy_pic" />
-      </div>
-      <button onClick={toggleDetails}>
-        {showDetails ? "Hide Details" : "Show More"}
-      </button>
-      <div id="apod" className={`details ${!showDetails ? "hidden" : ""}`}>
-        <h3 className="title">{data.title}</h3>
-        <p className="date">{data.date}</p>
-        <p className="author">{`By ${data.copyright}`}</p>
-        <p className="desc">{data.explanation}</p>
+      <div className="flex-container">
+        <div className="img-container">
+          <h2>Astronomy Picture of the Day</h2>
+          <img src={data.hdurl} alt="astronomy_pic" />
+          <p className="date">{data.date}</p>
+          <p className="author">{`By ${data.copyright}`}</p>
+        </div>
+        <div className="details-container">
+          <h3 className="title">{data.title}</h3>
+          <p className="desc">{data.explanation}</p>
+        </div>
       </div>
     </div>
   );
