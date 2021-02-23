@@ -1,5 +1,5 @@
 .App {
-  padding-top: 130px;
+  padding-top: 50px;
   text-align: center;
   height: 100vh;
   min-height: 820px;
@@ -53,4 +53,20 @@
   .App {
     height: 1400px;
   }
+}
+
+.arrow {
+  color: white;
+  width: 100px;
+  height: 100vh;
+  cursor: pointer;
+  position: fixed;
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
 }
