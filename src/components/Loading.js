@@ -1,9 +1,9 @@
 import React from "react";
-import "./Loading.css";
+import "../css/anim.css";
 
 const Loading = () => {
   return (
-    <div class="lds-facebook">
+    <div className="lds-facebook">
       <div></div>
       <div></div>
       <div></div>
