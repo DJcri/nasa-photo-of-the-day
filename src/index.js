@@ -22,15 +22,11 @@ const HeaderContainer = styled.div`
   height: ${(props) => props.theme.headerHeight};
   @media screen and (max-width: 1000px) {
     width: 100%;
-    height: 50px;
   }
 `;
 
 const ContentContainer = styled.div`
   padding-top: ${(props) => props.theme.headerHeight};
-  @media screen and (max-width: 1000px) {
-    padding-top: 50px;
-  }
 `;
 
 ReactDOM.render(
