@@ -1,0 +1,60 @@
+.about {
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+.about * {
+  margin: 0 auto;
+}
+.about p {
+  width: 60%;
+}
+.about h2 {
+  margin-bottom: 20px;
+}
+.about h3 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.about .tech-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+.about .tech {
+  width: 100px;
+  height: 150px;
+  margin: 0 20px;
+}
+.about .icon {
+  margin: auto;
+  margin-bottom: 15px;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.about .react {
+  color: aqua;
+}
+.about .react-router {
+  color: #a80000;
+}
+.about .styled-components {
+  color: hotpink;
+}
+.about .less {
+  color: steelblue;
+}
+.about .html5 {
+  color: orangered;
+}
+.about .css3 {
+  color: #0051ff;
+}
+.about .js {
+  color: yellow;
+}
+.about strong {
+  color: aqua;
+}

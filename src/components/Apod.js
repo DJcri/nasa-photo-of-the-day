@@ -47,6 +47,7 @@ const Apod = (props) => {
 
 export default Apod;
 
+//Styled Components
 const Desc = styled.p`
   line-height: 32px;
 `;
@@ -56,7 +57,7 @@ const ApodContainer = styled.div`
   background: ${(props) => props.theme.transparentBG};
   box-shadow: ${(props) => props.theme.boxShadow};
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 80px;
   padding: 40px;
   width: 75%;
   font-size: 1rem;
