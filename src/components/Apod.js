@@ -60,6 +60,7 @@ const ApodContainer = styled.div`
   margin-top: 80px;
   padding: 40px;
   width: 75%;
+  max-width: 1000px;
   font-size: 1rem;
   color: white;
 `;
@@ -67,7 +68,6 @@ const ApodContainer = styled.div`
 const FlexContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   @media screen and (max-width: ${(props) => props.theme.breakpoint1}) {
     display: block;
     font-size: 0.8rem;
@@ -75,10 +75,9 @@ const FlexContainer = styled.div`
 `;
 
 const ContentContainer = styled.div`
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 45%;
   max-height: 500px;
   min-width: 512px;

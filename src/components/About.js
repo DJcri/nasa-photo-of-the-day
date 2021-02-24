@@ -22,7 +22,7 @@ const About = () => {
         within the past 10 days in a <strong>fast and responsive</strong>{" "}
         fashion
       </p>
-      <h3>Other Technologies Used</h3>
+      <h3>Technologies Used</h3>
       <div className="tech-container">
         <div className="tech">
           <FaReact className="icon react" />
