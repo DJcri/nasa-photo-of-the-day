@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  height: 120vh;
+  min-height: 820px;
+  background: url("../img/background.jpg");
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main-content {
+  background: rgb(61, 81, 149);
+  padding: 50px;
+  border-radius: 20px;
+  border: rgb(34, 48, 92) solid 3px;
+}
+
+@media screen and (max-width: 1700px) {
+  .App {
+    height: 1400px;
+  }
+}
+
+.arrow {
+  color: white;
+  width: 100px;
+  height: 100vh;
+  cursor: pointer;
+  position: fixed;
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
