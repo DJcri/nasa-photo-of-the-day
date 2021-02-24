@@ -2,12 +2,14 @@
   margin-top: 80px;
   color: white;
   text-align: center;
+  font-size: 1.3rem;
+  line-height: 35px;
 }
 .about * {
   margin: 0 auto;
 }
 .about p {
-  width: 60%;
+  width: 30%;
 }
 .about h2 {
   margin-bottom: 20px;
@@ -23,9 +25,9 @@
   max-width: 600px;
 }
 .about .tech {
-  width: 100px;
+  width: 150px;
   height: 150px;
-  margin: 0 20px;
+  margin: 20px;
 }
 .about .icon {
   margin: auto;
